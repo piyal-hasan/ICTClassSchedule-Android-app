@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "506707227065",
+    "firebase_url": "https://onlineclassbypiyal.firebaseio.com",
+    "project_id": "onlineclassbypiyal",
+    "storage_bucket": "onlineclassbypiyal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506707227065:android:b3881f9c975b305e",
+        "android_client_info": {
+          "package_name": "com.example.piyal.classrutine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506707227065-5945mmf26ep91kg7eb4ho8769upj4gj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHn_-VWAEVlfkyW4haTbLp8_RxSxyR_Q4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

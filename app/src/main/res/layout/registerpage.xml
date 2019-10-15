@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/alrtid"
+    android:background="@android:drawable/gallery_thumb">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lebeltx"
+        android:background="@drawable/textlebelstyle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="SINGN UP"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="CourseCode"
+            android:ems="10"
+            android:text="ARE YOU TEACHER OR STUDENT ?"
+            android:textColor="@color/PrimaryDark"
+            android:textSize="16dp"
+            android:background="@drawable/inputtextshape"
+            android:id="@+id/coursecode"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:background="@drawable/inputtextshape"
+            android:id="@+id/teacherrbt"
+            android:textSize="18dp"
+            android:textColor="@color/PrimaryDark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            />
+        <RadioButton
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textColor="@color/PrimaryDark"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputtextshape"
+            android:id="@+id/studentrbt" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/teachersection">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Teacher&apos;s Name In short form as like Piyal Hasan=PH"
+            android:id="@+id/info"
+            android:textSize="16dp"
+            android:textColor="@color/PrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:background="@drawable/inputtextshape"
+            android:id="@+id/courseteacher"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/semestersp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/inputtextshape"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/teacher_namesavebt"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonshape"
+            android:layout_margin="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            style="@style/PrimaryFlatButton"/>
+    </LinearLayout>
+</LinearLayout>
