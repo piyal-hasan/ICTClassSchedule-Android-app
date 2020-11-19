@@ -1,4 +1,4 @@
-#3 ICTClassSchedule is an Android app to see the class schedule of Dept. Of ICT, MBSTU.
+## ICTClassSchedule is an Android app to see the class schedule of Dept. Of ICT, MBSTU.
 
 ### Feature:
    - You can add, update, delete schedule in admin site
